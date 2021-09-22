@@ -1,4 +1,4 @@
-# Welcome to the XPP API documentation.
+# Welcome to the XPP API documentation #
 
 Here you’ll find all the information you need to get started developing with the XPP API.
 
