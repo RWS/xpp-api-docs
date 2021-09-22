@@ -1,5 +1,5 @@
-#XPP API Documentation#
-##XPP RESTful Web Services Installation and Release Notes##
+# XPP API Documentation #
+## XPP RESTful Web Services Installation and Release Notes ##
 This document contains information split into three sections:
 1. Installing XPP RESTful Web Services
 2. Post-installation Configuration
@@ -7,7 +7,7 @@ This document contains information split into three sections:
 
 The document is currently maintained with the **[XPP technical documentation](https://docs.sdl.com/binary/796262/771026/sdl-xpp-restful-web-services-and-xpp-ws/restful-ws)**.
 
-##XPP RESTful Web Services Quick Install##
+## XPP RESTful Web Services Quick Install ##
 Five quick steps to installing XPP RESTful Web Services:
 1. Meet the prerequisites
 2. Log in
