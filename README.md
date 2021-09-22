@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# XPP-api-docs
 
-You can use the [editor on GitHub](https://github.com/RWS/xpp-api-docs/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## What is it?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This the main repository for the XPP Public API documentation.
 
-### Markdown
+## Can I contribute?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Anyone is welcome to contribute to the public XPP API documentation by making a pull request into the master repository.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+The documentation is split into the following sections:
+- Articles
+  - This section hosts a series of usefull article on:
+    - how to get started with writing plug-ins for XPP
+    - how to best use the public APIs
+    - how to troubleshoot common issues
+- API Concepts
+  - This section hosts the main guidelines on using the Public API along with the API References
 
-- Bulleted
-- List
+### Getting started with your contribution
+The documentation is built using a static documentation generator called [DocFX](https://dotnet.github.io/docfx/). 
+The documentation content is saved in *Markdown* files and then built into a website using [DocFX](https://dotnet.github.io/docfx/). The table of content is saved into separate *toc.yml* files.
 
-1. Numbered
-2. List
+In order for you to make a contribution directly please follow the next steps:
+- Create a local branch from the main repository
+- Add your changes by modifying existing *Markdown* files or by adding new *Markdown* files
+  - Adding new files will require updating the *toc.yml* files. Use the [guideline](https://dotnet.github.io/docfx/tutorial/intro_toc.html) provided by [DocFX](https://dotnet.github.io/docfx/) to learn more. 
+  - You can use tools such as *Notepad++* or *Visual Studio Code* to edit the content
+- Create a Pull Request with your changes. 
+  - This pull request will be reviewed for correctness by one of our technical writers
+- Once your pull request has been approved and committed into the *main* branch, an automatic pipeline will be triggered which will push your changes to the [live documentation site](https://rws.github.io/studio-api-docs/index.html)
+- if you wish to test your changes locally you can follow the [DOCFX Installation guideline](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html) and [build the entire solution locally](https://dotnet.github.io/docfx/tutorial/walkthrough/walkthrough_create_a_docfx_project.html)
+- Our documentation automatically fills in the product name and other details so you don't have to make the changes manually if we decide to update the product name. Use the '<var:VariableName>' construct to tell our documentation engine to fill in the info for you. Here are the constructs available at this point:
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RWS/xpp-api-docs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+      <var:ProductName> - The product name, for example XPP
+      <var:ProductNameWithEdition> - The official product release name including the edition, for example 'XPP 2021'
+      
