@@ -3,9 +3,9 @@
 This document contains information split into three sections:
 1. Installing XPP RESTful Web Services
 2. Post-installation Configuration
-3. XPP RESTful Web Services 1.0 Release Notes
+3. XPP RESTful Web Services Release Notes
 
-The document is currently maintained with the **[XPP technical documentation](https://docs.rws.com/binary/950003/951496/xpp-restful-web-services-and-xpp-ws/xpp-restful-ws-1-1-full-install)**.
+The document is currently maintained with the **[XPP technical documentation](https://docs.rws.com/https://docs.rws.com/binary/1141376/1141359/xpp-rest-web-services-1-2/xpp-rest-ws-1-2-full-install)**.
 
 ## XPP RESTful Web Services Quick Install ##
 Five quick steps to installing XPP RESTful Web Services:
@@ -15,4 +15,4 @@ Five quick steps to installing XPP RESTful Web Services:
 4. Launch the installation wizard and follow its prompts
 5. Validate the installation
 
-The document is currently maintained with the **[XPP technical documentation](https://docs.rws.com/binary/950003/951500/xpp-restful-web-services-and-xpp-ws/xpp-restful-ws-1-1-quick-install)**.
+The document is currently maintained with the **[XPP technical documentation](https://docs.rws.com/binary/1141376/1141363/xpp-rest-web-services-1-2/xpp-rest-ws-1-2-quick-install)**.
