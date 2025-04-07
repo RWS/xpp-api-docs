@@ -125,11 +125,12 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "index.html",
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
       "output": {
-        "resource": {
-          "relative_path": "index.html"
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "yAVwY0XoZFjkxe6dhWcobTAvKQFR1OUZrTWd+k6NU40="
         }
       },
       "is_incremental": false,

@@ -9,6 +9,11 @@
     "title": "Welcome to the XPP API documentation",
     "keywords": "Welcome to the XPP API documentation Here you’ll find all the information you need to get started developing with the XPP API. Should you have any ideas as to how we can improve this documentation, any new topics you think we should include or hints and tips you would like to share with the developer community, please let us know via your account manager. Good luck and happy developing!"
   },
+  "index.html": {
+    "href": "index.html",
+    "title": "Access the XPP APIs",
+    "keywords": "Access the XPP APIs Learn more about XPP APIs Learn more about the APIs and what you can achieve with them. Articles Read articles on how to get more out of XPP. RWS"
+  },
   "README.html": {
     "href": "README.html",
     "title": "XPP-api-docs",
