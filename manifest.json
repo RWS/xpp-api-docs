@@ -18,7 +18,29 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "foqJKW6WX0KkrOzOz3epiY2FzCT2LEtXmnWEEE8Ypnc="
+          "hash": "vWx0a71oA25TFDceTQSS8EDqOsq0yWIvvrpHw7c6CJo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "RWSTemplate/search-stopwords.json",
+      "output": {
+        "resource": {
+          "relative_path": "RWSTemplate/search-stopwords.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "RWSTemplate/token.json",
+      "output": {
+        "resource": {
+          "relative_path": "RWSTemplate/token.json"
         }
       },
       "is_incremental": false,
@@ -30,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/overview.html",
-          "hash": "R3BSKHS4d/F8LClwrXD3xAoOUt9lLpr0x2jtHY5KN+Q="
+          "hash": "kYgaIIv1gs4OG5fWBQCdXhTcAjwOIpVaEBzQkuIAEO8="
         }
       },
       "is_incremental": false,
@@ -42,7 +64,11 @@
       "output": {
         ".html": {
           "relative_path": "apiconcepts/toc.html",
-          "hash": "kGk58J0h7lYng41J2Z7XBPLw66TFVqsYZH7GG68AT/s="
+          "hash": "u5k4CtswerIZME9xGS8pr5w3dhwHzOKtqNoTjYrWXVI="
+        },
+        ".json": {
+          "relative_path": "apiconcepts/toc.json",
+          "hash": "MTa+j+XTs8QmEXR73sBQwMyDae9fr5vmWu1y9yXSTrA="
         }
       },
       "is_incremental": false,
@@ -54,7 +80,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "UDksYGF15iHu4/lhphMr5lEFYPEm5nFaD3m5KboXWmo="
+          "hash": "n2u/cwgo19YYUbPT8HMet1MYM6RC8NxOw1IqIC+3+fA="
         }
       },
       "is_incremental": false,
@@ -66,19 +92,44 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "HocIIAtWaqxD7AXfetLGVcrBoI6sNur5KapGWRvN1y0="
+          "hash": "PNIGETVQoHCKioHI36RaPIN9Rds7l8BAraJZbLfuJMs="
+        },
+        ".json": {
+          "relative_path": "articles/toc.json",
+          "hash": "PDnlwXHLqFpWnXG3H/pIsMBhDvX6HUENGYky0hDuHqI="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
+      "type": "Resource",
+      "source_relative_path": "docfx.json",
       "output": {
-        ".html": {
-          "relative_path": "index.html",
-          "hash": "3gjOKMdnfxeBJ4enXkmgvFoagQQg7RRhW54+4iuUobI="
+        "resource": {
+          "relative_path": "docfx.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docfx_project/docfx.json",
+      "output": {
+        "resource": {
+          "relative_path": "docfx_project/docfx.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "index.html",
+      "output": {
+        "resource": {
+          "relative_path": "index.html"
         }
       },
       "is_incremental": false,
@@ -90,7 +141,11 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Vdb7Ksf6AJaaDHqwjAlTt+T62UYwg52x1gY7ahgZjzc="
+          "hash": "bTB9kG9uFPaTEhelE7dTbG4RDPa6PFSCjgUAPkB1IS4="
+        },
+        ".json": {
+          "relative_path": "toc.json",
+          "hash": "Y2r72RUCUnz+qxGMHFGGXx6TG0y29I07Kl8qa1ITD8k="
         }
       },
       "is_incremental": false,
@@ -112,6 +167,13 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

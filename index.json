@@ -2,17 +2,12 @@
   "apiconcepts/overview.html": {
     "href": "apiconcepts/overview.html",
     "title": "XPP API Documentation",
-    "keywords": "XPP API Documentation XPP RESTful Web Services Installation and Release Notes This document contains information split into three sections: Installing XPP RESTful Web Services Post-installation Configuration XPP RESTful Web Services 1.0 Release Notes The document is currently maintained with the XPP technical documentation . XPP RESTful Web Services Quick Install Five quick steps to installing XPP RESTful Web Services: Meet the prerequisites Log in Mount the installation ISO file Launch the installation wizard and follow its prompts Validate the installation The document is currently maintained with the XPP technical documentation ."
+    "keywords": "XPP API Documentation XPP RESTful Web Services Installation and Release Notes This document contains information split into three sections: Installing XPP RESTful Web Services Post-installation Configuration XPP RESTful Web Services Release Notes The document is currently maintained with the XPP technical documentation . XPP RESTful Web Services Quick Install Five quick steps to installing XPP RESTful Web Services: Meet the prerequisites Log in Mount the installation ISO file Launch the installation wizard and follow its prompts Validate the installation The document is currently maintained with the XPP technical documentation ."
   },
   "articles/intro.html": {
     "href": "articles/intro.html",
     "title": "Welcome to the XPP API documentation",
     "keywords": "Welcome to the XPP API documentation Here you’ll find all the information you need to get started developing with the XPP API. Should you have any ideas as to how we can improve this documentation, any new topics you think we should include or hints and tips you would like to share with the developer community, please let us know via your account manager. Good luck and happy developing!"
-  },
-  "index.html": {
-    "href": "index.html",
-    "title": "Access the XPP APIs",
-    "keywords": "Access the XPP APIs Learn more about XPP APIs Learn more about the APIs and what you can achieve with them. Articles Read articles on how to get more out of XPP. RWS"
   },
   "README.html": {
     "href": "README.html",
