@@ -1,4 +1,6 @@
+- name: XPP
+  href: index.md
 - name: Articles
   href: articles/
-- name: XPP APIs
+- name: API
   href: apiconcepts/
