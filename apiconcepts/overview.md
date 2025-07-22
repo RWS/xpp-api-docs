@@ -9,7 +9,6 @@ For complete installation and setup information, please refer to the XPP Technic
 
 The latest supported version is XPP RESTful Web Services 1.6, which includes enhancements for improved performance, stability, and broader integration capabilities. Please ensure you are reviewing the documentation that corresponds to this release to take full advantage of the most recent updates.
 
-The full OpenAPI documentation for XPP RESTful Web Services is available The OpenAPI documentation is available [here](documentation/index.html).
-This resource provides a structured overview of all available endpoints, request/response formats, supported parameters, and example payloads, enabling you to quickly explore and integrate the services into your workflows.
+The documentation for XPP RESTful Web Services is derived from an [OpenAPI-compatible (v3.1) specification](documentation/xpp-rest.json). This specification then produces [a human-readable HTML web app](documentation/index.html) that provides a structured overview of all available endpoints, request/response formats, supported parameters, and example payloads, enabling you to easily understand how to use XPP RESTful Web Services.
 
 Whether you are setting up a new environment, migrating from an earlier version, or developing custom solutions that interface with XPP, this documentation is designed to support you at every step.
