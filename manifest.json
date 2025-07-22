@@ -51,6 +51,26 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "apiconcepts/documentation/index.html",
+      "output": {
+        "resource": {
+          "relative_path": "apiconcepts/documentation/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "apiconcepts/documentation/xpp-rest.json",
+      "output": {
+        "resource": {
+          "relative_path": "apiconcepts/documentation/xpp-rest.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/overview.md",
       "output": {
