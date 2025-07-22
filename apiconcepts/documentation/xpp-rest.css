@@ -1,0 +1,114 @@
+/* The default appearance of swagger-ui is not the best;
+   Use this file to improve things by overriding its selectors.
+*/
+
+.swagger-ui .wrapper {
+  max-width: 800px;
+}
+
+.swagger-ui .info {
+  margin: 0;
+  margin-top: 25px;
+}
+
+div.topbar {
+  display: none;
+}
+
+.swagger-ui .scheme-container {
+  background-color: transparent;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+.swagger-ui .scheme-container button:has(svg) {
+  top: 100px;
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+h3.opblock-tag span {
+  text-transform: capitalize;
+}
+
+.swagger-ui .renderedMarkdown code {
+  padding: 0;
+}
+
+.swagger-ui .filter .operation-filter-input {
+  margin: 0;
+}
+
+.swagger-ui .opblock-tag {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.swagger-ui .expand-operation {
+  position: absolute;
+  top: 10px;
+  right: 3px;
+}
+
+.swagger-ui .opblock-tag small {
+  padding: 0;
+}
+
+.swagger-ui .info p,
+.swagger-ui .opblock-tag small,
+.swagger-ui .opblock-description-wrapper p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/* Always show copy-to-clipboard button */
+.swagger-ui .opblock .opblock-summary .view-line-link.copy-to-clipboard {
+  margin: 0;
+  width: 24px;
+  margin-left: 5px;
+}
+
+.swagger-ui .copy-to-clipboard {
+  background-color: black;
+}
+
+.swagger-ui .scheme-container .schemes .auth-wrapper .authorize {
+  padding: 5px 10px;
+}
+
+.swagger-ui .btn.authorize span {
+  padding-right: 5px;
+}
+
+.swagger-ui .response-controls {
+  display: none;
+}
+
+.swagger-ui .table-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+body.inert .authorization__btn,
+body.inert .scheme-container {
+  display: none;
+}
+
+body > a {
+  background-color: rgb(62, 1, 111);
+  display: block;
+  height: 50px;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 534.642 259.141'%3E%3Cpath fill='white' d='M329.322,157.38l-22.98,34.14h-19.99l32.91-48.96-31.01-46.24h19.99l21.08,31.28,20.94-31.28h19.99l-31.01,46.1,33.05,49.1h-20.13l-22.85-34.14h.01ZM380.132,96.32h37.4c24.48,0,35.63,12.65,35.63,31.14s-11.15,31.01-35.63,31.01h-19.58v33.05h-17.82v-95.2ZM434.802,127.46c0-9.66-5.71-15.5-17.95-15.5h-18.9v30.87h18.9c12.24,0,17.95-5.85,17.95-15.37ZM461.612,96.32h37.4c24.48,0,35.63,12.65,35.63,31.14s-11.15,31.01-35.63,31.01h-19.58v33.05h-17.82v-95.2ZM516.282,127.46c0-9.66-5.71-15.5-17.95-15.5h-18.9v30.87h18.9c12.24,0,17.95-5.85,17.95-15.37Z'/%3E%3Cpath fill='white' d='M198.56,25.13C182.355,8.925,160.81,0,137.893,0c-22.916,0-44.462,8.925-60.667,25.13-9.148,9.148-15.976,19.999-20.188,31.838-11.866,4.21-22.743,11.046-31.909,20.213C8.925,93.386,0,114.932,0,137.849c0,12.025,2.443,23.663,7.26,34.59,4.627,10.49,11.208,19.819,19.564,27.728l58.974,58.974,111.069-111.025c8.355-7.91,14.937-17.236,19.562-27.728,4.818-10.927,7.26-22.564,7.26-34.59,0-22.917-8.925-44.464-25.13-60.669ZM85.796,242.004l-50.529-50.529c-14.256-13.435-23.154-32.493-23.154-53.628,0-29.005,16.762-54.091,41.125-66.111-.755,4.605-1.141,9.304-1.141,14.062,0,22.917,8.925,44.464,25.13,60.669,13.313,13.313,30.23,21.713,48.551,24.285v31.27l-39.982,39.982ZM137.893,189.951v-30.469c-40.694,0-73.681-32.989-73.681-73.681,0-6.62.878-13.035,2.516-19.138,6.082-1.625,12.472-2.496,19.066-2.496h.004c40.694,0,73.681,32.989,73.681,73.681,0,20.348-8.25,38.77-21.586,52.104ZM188.422,139.426l-19.405,19.405c1.715-6.811,2.579-13.828,2.579-20.982,0-22.917-8.925-44.464-25.13-60.669-16.205-16.205-37.752-25.13-60.669-25.13h0c-4.731,0-9.404.381-13.983,1.128,12.033-24.328,37.101-41.061,66.08-41.061,40.694,0,73.681,32.989,73.681,73.681,0,21.134-8.898,40.192-23.154,53.628Z'/%3E%3C/svg%3E");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
