@@ -3,21 +3,8 @@
     "content": [
       {
         "files": [
-          "api/**.yml"
-        ]
-      },
-      {
-        "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
           "toc.yml",
-          "*.md"
-        ]
-      },
-      {
-        "files": [
-          "apiconcepts/**.md",
-          "apiconcepts/toc.yml"
+          "index.md"
         ]
       }
     ],
@@ -25,18 +12,15 @@
       {
         "files": [
           "**/images/**",
-          "**/*.json",
-          "**/*.html",
-          "**/*.js",
-          "**/*.css"
+          "docs/*.json",
+          "docs/*.html",
+          "docs/*.js",
+          "docs/*.css"
         ]
       }
     ],
     "overwrite": [
       {
-        "files": [
-          "api/**.md"
-        ],
         "exclude": [
           "obj/**",
           "_site/**"
