@@ -5,7 +5,7 @@ Here you will find installation guides, configuration instructions, usage exampl
 
 ## Installation
 
-For complete installation and setup information, please consult the **[Installation and Release Notes](https://docs.rws.com/api/binary/1264816/1152628)**.
+For complete installation and setup information, please consult the **[Installation and Release Notes](https://docs.rws.com/xpprest)**.
 
 ## API Documentation
 
